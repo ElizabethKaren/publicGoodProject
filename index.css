@@ -8,13 +8,26 @@
     flex-direction: row;
     width: 100%;
 }
-
+.padWithHand{
+    height: 30vh;
+    width: 20vw;
+}
 .nav{
     position: relative;
     display: inline-block;
     width: 100%;
     text-align: center;
     color: gray;
+}
+.outter{
+    position: relative;
+    text-align: center;
+}
+.inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 img{
     width: 100vw;
@@ -28,10 +41,11 @@ body{
 }
 .bambooWords{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-weight: bold;
     color: white;
-    bottom: 80px;
-    left: 20vw;
 }
 .wordsLeft{
     position: relative;
