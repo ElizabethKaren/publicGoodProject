@@ -2,6 +2,13 @@
     width: 1220px;
     height: 700;
 }
+.padImages{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
 .nav{
     position: relative;
     display: inline-block;
@@ -18,13 +25,13 @@ body{
 .wordsCenter{
     position: relative;
     text-align: center;
-    width: 40vw; 
 }
 .bambooWords{
     position: absolute;
     font-weight: bold;
     color: white;
-    bottom: 60px;
+    bottom: 80px;
+    left: 20vw;
 }
 .wordsLeft{
     position: relative;
@@ -59,6 +66,6 @@ button{
     width: 20px;
 }
 #pad{
-    height: 20vh;
-    width: 20vw;
+    width: 40px;
+    height: 60px;
 }
