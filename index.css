@@ -9,3 +9,30 @@
     text-align: center;
     list-style-type: none;
 }
+img{
+    width: 100vw;
+}
+button{
+    background-color: rgb(233, 163, 103);
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    width: 82px;
+    border: 3px solid rgb(233, 163, 103);
+}
+.productsDiv{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    float: left;
+    width: 100vw;
+}
+.product{
+    padding: 4px;
+    height: 20px;
+    width: 20px;
+}
+#pad{
+    height: 20vh;
+    width: 20vw;
+}
