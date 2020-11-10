@@ -2,3 +2,10 @@
     width: 1220px;
     height: 700;
 }
+.nav{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+}
