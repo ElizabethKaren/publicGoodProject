@@ -102,3 +102,11 @@ button{
 #productBetween{
     padding: 160px;
 }
+#buttonInbetween{
+    padding: 60px;
+}
+#picAndText{
+    left: 90px;
+    height: 100px;
+    width: 400px;
+}
