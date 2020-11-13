@@ -3,14 +3,19 @@
     height: 700;
 }
 .padImages{
-    position: relative;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    position: relative;
+}
+#hand{
+    height: 48vh;
+    width: 48vw;
+    padding: 10px;
 }
 .padWithHand{
     height: 30vh;
     width: 20vw;
+    padding: 10px;
 }
 .nav{
     position: relative;
@@ -83,4 +88,11 @@ button{
 #pad{
     width: 40px;
     height: 60px;
+}
+#bambooDesktop{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#inbetween{
+    padding: 170px;
 }
