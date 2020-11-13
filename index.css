@@ -27,6 +27,7 @@
 .outter{
     position: relative;
     text-align: center;
+    bottom: 200px;
 }
 .inner{
     position: absolute;
@@ -74,6 +75,8 @@ button{
     padding-top: 30px;
     padding-bottom: 30px;
     align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .row{
     display: flex;
@@ -86,16 +89,16 @@ button{
     width: 20px;
 }
 #pad{
-    width: 100px;
-    height: 200px;
+    width: 280px;
+    height: 350px;
 }
 #bambooDesktop{
     margin-left: 40px;
     margin-right: 40px;
 }
 #inbetween{
-    padding: 170px;
+    padding: 200px;
 }
 #productBetween{
-    padding: 80px;
+    padding: 160px;
 }
