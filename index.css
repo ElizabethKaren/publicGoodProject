@@ -86,8 +86,8 @@ button{
     width: 20px;
 }
 #pad{
-    width: 40px;
-    height: 60px;
+    width: 100px;
+    height: 200px;
 }
 #bambooDesktop{
     margin-left: 40px;
@@ -95,4 +95,7 @@ button{
 }
 #inbetween{
     padding: 170px;
+}
+#productBetween{
+    padding: 80px;
 }
